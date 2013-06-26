@@ -6,7 +6,7 @@ module.exports = (grunt)->
 			tasks: ['test']
 
 		jasmine:
-			src: 'js/**/*.js'
+			src: 'js/src/**/*.js'
 			options:
 				vendor: ['vendor/**/*.js']
 				specs: 'js/spec/**/*spec.js'
